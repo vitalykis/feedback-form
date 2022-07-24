@@ -26,6 +26,7 @@ header {
     max-width: 700px;
     min-width: 400px;
     height: 100%;
+    max-height: 400px;
     background-color: rgba(13, 88, 13, 0.6);
 }
 
