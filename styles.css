@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 body::before {
     content: "";
@@ -41,7 +43,7 @@ header {
     width: 50%;
     max-width: 400px;
     min-width: 200px;
-    height: 650px;
+    height: auto;
     padding: 5px 5px;
     border-radius: 5px;
     margin: auto;
@@ -72,11 +74,40 @@ label {
 .form-information {
     display: block;
     width: 90%;
+    height: auto;
     margin: auto;
 }
 
 #submit {
-    width: 120px;
-    height: 20px;
+    width: 90%;
+    height: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(15, 63, 23);
+    color: aliceblue;
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid rgb(216, 245, 217);
+}
+
+input,
+textarea,
+select {
+    padding: 10px 20px;
+    background-color: rgb(205, 247, 212);
+    margin-top: 10px;
+    border: 2px solid rgb(33, 134, 37);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(10, 65, 10);
+}
+
+.inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.check {
+    margin: 10px 0 20px;
 }
