@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">The form for your feedback</h1>
+        <p id="description">Here you could left your feedback and help us to improve our service</p>
+    </header>
+    <div class="information">
+        <form id="survey-form">
+            <label id="name-label">Name
+                <input class="form-information" type="text" id="name" required placeholder="Put your name here">
+            </label>
+            <label id="email-label">Email
+                <input class="form-information" type="email" id="email" required placeholder="Put your email here">
+            </label>
+            <label id="number-label">Age
+                <input class="form-information" type="number" id="number" max="120" min="12" required
+                    placeholder="Put your age here">
+            </label>
+            <label>Please choose smthg
+                <select class="form-information" id="dropdown">
+                    <option>Here</option>
+                    <option>There</option>
+                </select>
+            </label>
+            <label class="center-label">Choose 1
+                <input class="form-information" type="radio" name="hh" value="1">
+            </label>
+            <label class="center-label">Choose 2
+                <input class="form-information" type="radio" name="hh" value="1">
+            </label>
+            <label class="center-label">Do you like our service?</label>
+            <label class="small-label">Yes
+                <input class="form-information" type="checkbox" value="Yes">
+            </label>
+            <label class="small-label">No
+                <input class="form-information" type="checkbox" value="No">
+            </label>
+            <label class="small-label">Maybe
+                <input class="form-information" type="checkbox" value="Maybe">
+            </label>
+            <label class="small-label">Probably
+                <input class="form-information" type="checkbox" value="Probably">
+            </label>
+            <textarea class="form-information">Anything else?</textarea>
+            <input class="form-information" type="submit" value="Send information" id="submit"></input>
+        </form>
+    </div>
+</body>

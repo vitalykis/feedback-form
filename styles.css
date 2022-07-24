@@ -1,0 +1,82 @@
+
+
+body::before {
+    content: "";
+    background-image: url(leaves.jpg);
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+header {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 70%;
+    max-width: 700px;
+    min-width: 400px;
+    height: 100%;
+    background-color: rgba(13, 88, 13, 0.6);
+}
+
+#title {
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#description {
+    font: italic 1.2em "Fira Sans";
+    color: rgb(255, 252, 255);
+}
+
+.information {
+    width: 50%;
+    max-width: 400px;
+    min-width: 200px;
+    height: 650px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(20, 148, 20, 0.8);
+    color: aliceblue;
+    font: 1.2em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label {
+    display: block;
+    margin: 5px 10px;
+    padding-bottom: 10px;
+
+}
+
+.small-label {
+    text-align: center;
+    color: aliceblue;
+    font: 0.8em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.center-label {
+    text-align: center;
+}
+
+.form-information {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+#submit {
+    width: 120px;
+    height: 20px;
+    margin-top: 20px;
+}
