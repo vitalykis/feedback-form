@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html>
 
 <head>
@@ -30,25 +30,44 @@
                     <option>There</option>
                 </select>
             </label>
-            <label class="center-label">Choose 1
-                <input class="form-information" type="radio" name="hh" value="1">
-            </label>
-            <label class="center-label">Choose 2
-                <input class="form-information" type="radio" name="hh" value="1">
-            </label>
-            <label class="center-label">Do you like our service?</label>
-            <label class="small-label">Yes
-                <input class="form-information" type="checkbox" value="Yes">
-            </label>
-            <label class="small-label">No
-                <input class="form-information" type="checkbox" value="No">
-            </label>
-            <label class="small-label">Maybe
-                <input class="form-information" type="checkbox" value="Maybe">
-            </label>
-            <label class="small-label">Probably
-                <input class="form-information" type="checkbox" value="Probably">
-            </label>
+            <div class="inline">
+                <div class="rad">
+                    <label class="center-label">Choose 1
+                        <input class="form-information" type="radio" name="hh" value="1">
+                    </label>
+                </div>
+                <div class="rad">
+                    <label class="center-label">Choose 2
+                        <input class="form-information" type="radio" name="hh" value="1">
+                    </label>
+                </div>
+            </div>
+
+            <div class="question">
+                <label class="center-label">Do you like our service?</label>
+            </div>
+            <div class="inline">
+                <div class="check">
+                    <label class="small-label">Yes
+                        <input class="form-information" type="checkbox" value="Yes">
+                    </label>
+                </div>
+                <div class="check">
+                    <label class="small-label">No
+                        <input class="form-information" type="checkbox" value="No">
+                    </label>
+                </div>
+                <div class="check">
+                    <label class="small-label">Maybe
+                        <input class="form-information" type="checkbox" value="Maybe">
+                    </label>
+                </div>
+                <div class="check">
+                    <label class="small-label">Probably
+                        <input class="form-information" type="checkbox" value="Probably">
+                    </label>
+                </div>
+            </div>
             <textarea class="form-information">Anything else?</textarea>
             <input class="form-information" type="submit" value="Send information" id="submit"></input>
         </form>
