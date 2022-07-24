@@ -106,10 +106,10 @@ select {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
-.check {
-    margin: 10px 0 20px;
+.check, .rad {
+    margin: 10px 20px 20px;
 }
